@@ -1,0 +1,39 @@
+.appItem {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+h2 {
+  background: lightgray;
+  padding: 10px;
+  color: rgb(18, 63, 146);
+  text-align: center;
+}
+
+.app_rating,
+.app_size,
+.app_type,
+.app_genres,
+.app_price {
+  text-align: center;
+  padding: 2px;
+}
+
+.app_price {
+  padding: 5px;
+  margin: 0 auto;
+  width: 90%;
+  font-style: italic;
+  color: rgb(18, 63, 146);
+}
+
+.book_details {
+  color: rgb(18, 63, 146);
+  text-align: center;
+  padding: 2px;
+}
